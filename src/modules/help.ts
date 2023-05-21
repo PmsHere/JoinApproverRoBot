@@ -8,14 +8,14 @@ composer.callbackQuery("helper", async (ctx) => {
   try {
     await ctx.editMessageText(
       ctx.t("help") +
-        "\n\nTo approve members who are already in waiting list, upgrade to premium! Contact @xditya_bot for information on pricing.",
+        "\n\n<b>Powered by @MalluTorentzTG</b>",
       {
         reply_markup: new InlineKeyboard()
-          .text("Add me to your channel", "add_to_channel")
-          .text("Add me to your group", "add_to_group")
+          .text("Channel Settings", "add_to_channel")
+          .text("Group Settings", "add_to_group")
           .row()
           .text(
-            "Main Menu 📭",
+            "Main Menu",
             "mainMenu",
           ),
         parse_mode: "HTML",

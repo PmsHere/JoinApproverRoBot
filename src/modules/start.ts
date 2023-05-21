@@ -21,8 +21,8 @@ composer
       parse_mode: "HTML",
       reply_markup: new InlineKeyboard()
         .text(ctx.t("usage-help"), "helper")
-        .text("Language 🌐", "setLang").row()
-        .url(ctx.t("updates"), "https://t.me/BotzHub"),
+        .url(("Movies"), "https://t.me/MalluTorentGroup").row()
+        .url(("Premium Acceptor"), "https://t.me/Chiyaan_Dhruv"),
       disable_web_page_preview: true,
     });
     await addUser(ctx.from!.id);
@@ -35,8 +35,8 @@ composer.callbackQuery("mainMenu", async (ctx) => {
       parse_mode: "HTML",
       reply_markup: new InlineKeyboard()
         .text(ctx.t("usage-help"), "helper")
-        .text("Language 🌐", "setLang").row()
-        .url(ctx.t("updates"), "https://t.me/BotzHub"),
+        .url(("Movies"), "https://t.me/MalluTorentGroup").row()
+        .url(("Premium Acceptor"), "https://t.me/Chiyaan_Dhruv"),
       disable_web_page_preview: true,
     },
   );
