@@ -22,7 +22,7 @@ composer
       reply_markup: new InlineKeyboard()
         .text(ctx.t("usage-help"), "helper")
         .url(("Movies"), "https://t.me/MalluTorentGroup").row()
-        .url(("Premium Acceptor"), "https://t.me/Chiyaan_Dhruv"),
+        .url(("Premium Acceptor"), "https://t.me/+hthOSo5Way01MGFh"),
       disable_web_page_preview: true,
     });
     await addUser(ctx.from!.id);
@@ -36,7 +36,7 @@ composer.callbackQuery("mainMenu", async (ctx) => {
       reply_markup: new InlineKeyboard()
         .text(ctx.t("usage-help"), "helper")
         .url(("Movies"), "https://t.me/MalluTorentGroup").row()
-        .url(("Premium Acceptor"), "https://t.me/Chiyaan_Dhruv"),
+        .url(("Premium Acceptor"), "https://t.me/+hthOSo5Way01MGFh"),
       disable_web_page_preview: true,
     },
   );
