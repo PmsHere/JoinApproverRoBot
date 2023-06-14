@@ -36,9 +36,7 @@ composer
 <b>Total users</b>: ${await countUsers()}
 <b>Chats with modified settings</b>: ${(await getAllSettings()).length}
 <b>Total Users Seen (Approved/Disapproved)</b>: ${helperClass.TOTAL_USERS_SEEN}
-<b>Uptime</b>: ${uptime}
-
-<b><a href="https://github.com/xditya/ChannelActionsBot">Repository</a> | <a href="https://t.me/BotzHub">Channel</a> | <a href="https://t.me/BotzHubChat">Support</a></b>`,
+<b>Uptime</b>: ${uptime},
       { parse_mode: "HTML", disable_web_page_preview: true },
     );
   });
