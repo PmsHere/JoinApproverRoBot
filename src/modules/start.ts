@@ -20,10 +20,8 @@ composer
     await ctx.reply(ctx.t("start-msg", { user: ctx.from!.first_name }), {
       parse_mode: "HTML",
       reply_markup: new InlineKeyboard()
-        .text(ctx.t("usage-help"), "helper")
-        .url(("Movies"), "https://t.me/MalluTorentGroup").row()
-        .url(("Premium Acceptor"), "https://t.me/+hthOSo5Way01MGFh"),
-      disable_web_page_preview: true,
+        .text(ctx.t("usage-help"), "helper"),
+        disable_web_page_preview: true,
     });
     await addUser(ctx.from!.id);
   });
@@ -34,10 +32,8 @@ composer.callbackQuery("mainMenu", async (ctx) => {
     {
       parse_mode: "HTML",
       reply_markup: new InlineKeyboard()
-        .text(ctx.t("usage-help"), "helper")
-        .url(("Movies"), "https://t.me/MalluTorentGroup").row()
-        .url(("Premium Acceptor"), "https://t.me/+hthOSo5Way01MGFh"),
-      disable_web_page_preview: true,
+        .text(ctx.t("usage-help"), "helper"),
+        disable_web_page_preview: true,
     },
   );
 });
