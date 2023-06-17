@@ -7,7 +7,8 @@ const composer = new Composer<MyContext>();
 composer.callbackQuery("helper", async (ctx) => {
   try {
     await ctx.editMessageText(
-      ctx.t("help"),
+      ctx.t("help") +
+        "\n\n<b>Powered by @MalluTorentzTG</b>",
       {
         reply_markup: new InlineKeyboard()
           .text("Channel Settings", "add_to_channel")
