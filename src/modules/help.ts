@@ -8,7 +8,7 @@ composer.callbackQuery("helper", async (ctx) => {
   try {
     await ctx.editMessageText(
       ctx.t("help") +
-        "\n\n<b>Powered by @MalluTorentzTG</b>",
+        "Always @ Your Service",
       {
         reply_markup: new InlineKeyboard()
           .text("Channel Settings", "add_to_channel")
