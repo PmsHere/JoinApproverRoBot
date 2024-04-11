@@ -8,11 +8,11 @@ composer.callbackQuery("helper", async (ctx) => {
   try {
     await ctx.editMessageText(
       ctx.t("help") +
-        "\n\nTo approve members who are already in waiting list.",
+        "",
       {
         reply_markup: new InlineKeyboard()
-          .text("Add me to your channel", "add_to_channel")
-          .text("Add me to your group", "add_to_group")
+          .text("Add a channel", "add_to_channel")
+          .text("Add a group", "add_to_group")
           .row()
           .text(
             "Main Menu 📭",
