@@ -8,7 +8,7 @@ composer.callbackQuery("helper", async (ctx) => {
   try {
     await ctx.editMessageText(
       ctx.t("help") +
-        "\n\nTo approve members who are already in waiting list, upgrade to premium! Contact @xditya_bot for information on pricing.",
+        "\n\nTo approve members who are already in waiting list.",
       {
         reply_markup: new InlineKeyboard()
           .text("Add me to your channel", "add_to_channel")
