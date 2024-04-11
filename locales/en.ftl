@@ -1,6 +1,6 @@
 start-msg = 👋 Welcome {$user}! 👋
 
-    🔰 @MalluPremiumBot allows you to <b>automatically accept join requests</b> to your Telegram channel with detailed statistics on the performance of your channels! 
+    🔰 @JoinApproverRoBot allows you to <b>automatically accept join requests</b> to your Telegram channel with detailed statistics on the performance of your channels! 
 
     💭 Add me to you channel with the <b>only permission</b> of <b>invite users</b> and forward me a message from that channel !
 
@@ -26,24 +26,16 @@ chat-settings = *Settings for {$title}*
 
     Current settings:
     AutoApprove: {$autoappr}.
-    
-<b>Powered by @MalluTorentzTG</b>
 
 chat-settings-approved = Settings updated! New join requests in the channel {$title} will be approved automatically!
 
-<b>Powered by @MalluTorentzTG</b>
-
 chat-settings-disapproved = Settings updated! New join requests in the channel {$title} will be disapproved automatically!
-
-<b>Powered by @MalluTorentzTG</b>
 
 welcome-text = Enter the welcome message you want the new approved/disapproved members to receive.
 
     Available formattings:
     - $name - users name.
     - $chat - chat title.
-    
-<b>Powered by @MalluTorentzTG</b>
 
 provide-msg = Please provide a message!
 
