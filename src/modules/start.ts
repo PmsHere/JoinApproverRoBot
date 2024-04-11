@@ -20,9 +20,7 @@ composer
     await ctx.reply(ctx.t("start-msg", { user: ctx.from!.first_name }), {
       parse_mode: "HTML",
       reply_markup: new InlineKeyboard()
-        .text(ctx.t("usage-help"), "helper")
-        .text("Language 🌐", "setLang").row()
-        .url(ctx.t("updates"), "https://t.me/BotzHub"),
+        .text(ctx.t("usage-help"), "helper"),
       disable_web_page_preview: true,
     });
     await addUser(ctx.from!.id);
@@ -34,9 +32,7 @@ composer.callbackQuery("mainMenu", async (ctx) => {
     {
       parse_mode: "HTML",
       reply_markup: new InlineKeyboard()
-        .text(ctx.t("usage-help"), "helper")
-        .text("Language 🌐", "setLang").row()
-        .url(ctx.t("updates"), "https://t.me/BotzHub"),
+        .text(ctx.t("usage-help"), "helper"),
       disable_web_page_preview: true,
     },
   );
